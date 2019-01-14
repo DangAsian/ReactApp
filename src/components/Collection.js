@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ContactInfo from './ContactInfo';
 import list from './list';
-import './Collection.css';
+import styles from './Collection.sass';
 
 // const Contact =(props) => (
 class Contact extends Component {
@@ -14,7 +14,6 @@ class Contact extends Component {
       contacts: list,
     });
   }
-
 
   addContact= (e) => {
     e.preventDefault();
@@ -47,7 +46,7 @@ class Contact extends Component {
 
   render(){
     return(
-      <div id='Collection'>
+      <div id='Collection' className='main'>
         {this.newContact()}
         {/* <button className='pure-button' onClick={this.addContact}>Button</button> */}
         <div id='Layout' className='pure-g'>
