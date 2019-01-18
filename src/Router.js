@@ -2,9 +2,9 @@ import React from 'react';
 // import c from './components';
 // import Layout from './components/Layout';
 import Collection from './components/Collection';
-import ContactInfo from './components/ContactInfo';
+// import ContactInfo from './components/ContactInfo';
 import Show from './components/Show';
-import { BrowserRouter, Route, Redirect, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 
 const Router = () =>
   <BrowserRouter>
