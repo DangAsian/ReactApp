@@ -15,6 +15,11 @@ class Contact extends Component {
     this.props.contacts.fetchAll();
   }
 
+  // contactArray = (e) => {
+  //   // if (this.props.contacts.all === false){
+  //   //   return console.log("jello");
+  //     console.log(this.props.contacts.all);
+  // }
   // componentWillMount() {
   //   // console.log("hello");
   //   // console.log(this.props.contacts.all);
@@ -75,6 +80,7 @@ class Contact extends Component {
         {/* <button className='pure-button' onClick={this.addContact}>Button</button> */}
         <div id='Layout' className='pure-g'>
           {console.log(this.props.contacts.all)}
+          {/* {this.contactArray()} */}
           {this.props.contacts.all.map((info,id) =>
             <ContactInfo name={info.first_name} email={info.email} key={id} id={info.id}/>
           )}
