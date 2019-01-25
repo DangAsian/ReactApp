@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 a61947ea8c4d6c92b0bdef87cfd0f1ec77d31f7f Daniel Ang <dan.justin.ang@gmail.com> 1547429969 -0500	branch: Created from master
+a61947ea8c4d6c92b0bdef87cfd0f1ec77d31f7f 50557338af290951941d242b597880b90f5d9303 Daniel Ang <dan.justin.ang@gmail.com> 1547430113 -0500	commit: going to eject
+50557338af290951941d242b597880b90f5d9303 93969ac18a791e8e08bf5658ced1448bbc4b3060 Daniel Ang <dan.justin.ang@gmail.com> 1547790503 -0500	commit: added basic CRUD functions, create, show, remove
